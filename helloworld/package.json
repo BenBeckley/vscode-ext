@@ -16,6 +16,10 @@
       {
         "command": "helloworld.helloWorld",
         "title": "New Hello World"
+      },
+      {
+        "command": "helloworld.showTime",
+        "title": "Show Time"
       }
     ]
   },

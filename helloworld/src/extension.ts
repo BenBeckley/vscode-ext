@@ -19,6 +19,13 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('New Hello World from HelloWorld!');
 	});
 
+	let showTime = vscode.commands.registerCommand('helloworld.showTime', () => {
+		// The code you place here will be executed every time your command is executed
+		// Display a message box to the user
+		let date = new Date();
+		vscode.window.showInformationMessage(date.toTimeString());
+	});
+
 	context.subscriptions.push(disposable);
 }
 
