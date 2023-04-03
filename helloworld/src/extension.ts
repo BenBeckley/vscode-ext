@@ -26,6 +26,13 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage(date.toTimeString());
 	});
 
+	let showWarning = vscode.commands.registerCommand('helloworld.showWarning', () => {
+		// The code you place here will be executed every time your command is executed
+		// Display a warning box to the user
+		let message = "Stop right there, criminal scum! Nobody breaks the law on my watch!";
+		vscode.window.showWarningMessage(message);
+	});
+
 	context.subscriptions.push(disposable);
 }
 

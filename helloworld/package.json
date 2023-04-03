@@ -20,6 +20,10 @@
       {
         "command": "helloworld.showTime",
         "title": "Show Time"
+      },
+      {
+        "command": "helloworld.showWarning",
+        "title": "Show Warning"
       }
     ]
   },
