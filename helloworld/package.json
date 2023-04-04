@@ -15,15 +15,18 @@
     "commands": [
       {
         "command": "helloworld.helloWorld",
-        "title": "New Hello World"
+        "title": "New Hello World",
+        "category": "Custom"
       },
       {
         "command": "helloworld.showTime",
-        "title": "Show Time"
+        "title": "Show Time",
+        "category": "Custom"
       },
       {
         "command": "helloworld.showWarning",
-        "title": "Show Warning"
+        "title": "Show Warning",
+        "category": "Custom"
       }
     ]
   },
