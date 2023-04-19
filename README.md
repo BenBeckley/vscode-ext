@@ -7,3 +7,6 @@ https://code.visualstudio.com/api/get-started/your-first-extension
 
 ## dependency-demo
 https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+## vscode-telemetry
+https://www.npmjs.com/package/@vscode/extension-telemetry
